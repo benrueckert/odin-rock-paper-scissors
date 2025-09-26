@@ -14,3 +14,8 @@ function getComputerChoice() {
     }
     return computerChoice;
 }
+
+function getHumanChoice() {
+    let humanChoice = prompt("rock, paper, scissors?");
+    return humanChoice;
+}
